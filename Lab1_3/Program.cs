@@ -11,7 +11,7 @@ namespace Lab1_3
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the time:");
-            Console.WriteLine("Hours: ");
+            Console.Write("Hours: ");
             float hours = float.Parse(Console.ReadLine());
             if ((hours > 11) | (hours < 0))
             {
@@ -20,7 +20,7 @@ namespace Lab1_3
             }
             else
             {
-                Console.WriteLine("Minutes: ");
+                Console.Write("Minutes: ");
                 float minutes = float.Parse(Console.ReadLine());
                 if ((minutes < 0) | (minutes > 59))
                 {
@@ -29,7 +29,7 @@ namespace Lab1_3
                 }
                 else
                 {
-                    Console.WriteLine("Seconds: ");
+                    Console.Write("Seconds: ");
                 float seconds = float.Parse(Console.ReadLine());
                     if ((seconds > 59) | (seconds < 0))
                     {
