@@ -11,11 +11,9 @@ namespace Lab1_5
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the length of the first cathet: ");
-            string sa = Console.ReadLine();
-            double a = double.Parse(sa);
+            double a = double.Parse(Console.ReadLine());
             Console.WriteLine("Enter the length of the second cathet: ");
-            string sb = Console.ReadLine();
-            double b = double.Parse(sb);
+            double b = double.Parse(Console.ReadLine());
             double c = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2));
             double @area = (a * b) / 2;
             double @perimeter = a + b + c;
