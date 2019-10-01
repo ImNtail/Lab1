@@ -11,11 +11,9 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Enter the first number: ");
-            string sx = Console.ReadLine();
-            int x = int.Parse(sx);
+            int x = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter the second number: ");
-            string sy = Console.ReadLine();
-            int y = int.Parse(sy);
+            int y = int.Parse(Console.ReadLine());
             x = x + y;
             y = x - y;
             x = x - y;
