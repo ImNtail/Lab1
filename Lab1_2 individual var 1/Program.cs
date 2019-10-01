@@ -34,13 +34,13 @@ namespace Lab1_2_individual_var_1
                 }
                 else
                 {
-                    Console.WriteLine("Error. The root of the number is greater than or equal to 1.");
+                    Console.WriteLine("Error. The square root of the number is greater than or equal to 1.");
                     Console.ReadKey();
                 }
             }
             else
             {
-                Console.WriteLine("Error. The root of the number is greater than or equal to 1.");
+                Console.WriteLine("Error. The square root of the number is greater than or equal to 1.");
                 Console.ReadKey();
             }
         }
