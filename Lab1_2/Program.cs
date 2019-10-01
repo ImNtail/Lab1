@@ -7,8 +7,7 @@ namespace Lab1_2
         static void Main(string[] args)
         {
             Console.WriteLine("How many seconds are gone?");
-            string sec_text = Console.ReadLine();
-            int seconds = int.Parse(sec_text);
+            seconds = int.Parse(Console.ReadLine());
             int hours = (int)(seconds / 3600);
             int minutes = (int)(seconds / 60);
             while (minutes > 60) 
