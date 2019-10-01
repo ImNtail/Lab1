@@ -10,7 +10,7 @@ namespace Lab1_6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the number: ");
+            Console.Write("Enter the number: ");
             int number = int.Parse(Console.ReadLine());
             if (((int)(number / 1000) < 10) && ((int)(number / 1000) > 0))
             {
