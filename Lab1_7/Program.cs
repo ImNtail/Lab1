@@ -10,7 +10,7 @@ namespace Lab1_7
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enther the number: ");
+            Console.Write("Enther the number: ");
             int number = int.Parse(Console.ReadLine());
             if (((int)(number / 100) < 10) && ((int)(number / 100) > 0))
             {
