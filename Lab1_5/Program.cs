@@ -10,9 +10,9 @@ namespace Lab1_5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the length of the first cathet: ");
+            Console.Write("Enter the length of the first cathet: ");
             double a = double.Parse(Console.ReadLine());
-            Console.WriteLine("Enter the length of the second cathet: ");
+            Console.Write("Enter the length of the second cathet: ");
             double b = double.Parse(Console.ReadLine());
             double c = Math.Sqrt(Math.Pow(a, 2) + Math.Pow(b, 2));
             double @area = (a * b) / 2;
