@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,56 +14,38 @@ namespace Lab1_9
             Console.WriteLine("a1*x + b1*y + с1*z = d1");
             Console.WriteLine("a2*x + b2*y + с2*z = d2");
             Console.WriteLine("a3*x + b3*y + с3*z = d3");
-
-            Console.WriteLine("a1: ");
-            string sa1 = Console.ReadLine();
-            Console.WriteLine("b1: ");
-            string sb1 = Console.ReadLine();
-            Console.WriteLine("c1: ");
-            string sc1 = Console.ReadLine();
-            Console.WriteLine("");
-            Console.WriteLine("d1: ");
-            string sd1 = Console.ReadLine();
-
-            Console.WriteLine("a2: ");
-            string sa2 = Console.ReadLine();
-            Console.WriteLine("b2: ");
-            string sb2 = Console.ReadLine();
-            Console.WriteLine("c2: ");
-            string sc2 = Console.ReadLine();
-            Console.WriteLine("");
-            Console.WriteLine("d2: ");
-            string sd2 = Console.ReadLine();
-
-            Console.WriteLine("a3: ");
-            string sa3 = Console.ReadLine();
-            Console.WriteLine("b3: ");
-            string sb3 = Console.ReadLine();
-            Console.WriteLine("c3: ");
-            string sc3 = Console.ReadLine();
-            Console.WriteLine("");
-            Console.WriteLine("d3: ");
-            string sd3 = Console.ReadLine();
-
-            int a1 = int.Parse(sa1);
-            int b1 = int.Parse(sb1);
-            int c1 = int.Parse(sc1);
-
-            int d1 = int.Parse(sd1);
             Console.WriteLine("");
 
-            int a2 = int.Parse(sa2);
-            int b2 = int.Parse(sb2);
-            int c2 = int.Parse(sc2);
 
-            int d2 = int.Parse(sd2);
+            Console.Write("a1: ");
+            int a1 = int.Parse(Console.ReadLine());
+            Console.Write("b1: ");
+            int b1 = int.Parse(Console.ReadLine());
+            Console.Write("c1: ");
+            int c1 = int.Parse(Console.ReadLine());
+            Console.Write("d1: ");
+            int d1 = int.Parse(Console.ReadLine());
             Console.WriteLine("");
 
-            int a3 = int.Parse(sa3);
-            int b3 = int.Parse(sb3);
-            int c3 = int.Parse(sc3);
+            Console.Write("a2: ");
+            int a2 = int.Parse(Console.ReadLine());
+            Console.Write("b2: ");
+            int b2 = int.Parse(Console.ReadLine());
+            Console.Write("c2: ");
+            int c2 = int.Parse(Console.ReadLine());
+            Console.Write("d2: ");
+            int d2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("");
 
-            int d3 = int.Parse(sd3);
+            Console.Write("a3: ");
+            int a3 = int.Parse(Console.ReadLine());
+            Console.Write("b3: ");
+            int b3 = int.Parse(Console.ReadLine());
+            Console.Write("c3: ");
+            int c3 = int.Parse(Console.ReadLine());
+            Console.Write("d3: ");
+            int d3 = int.Parse(Console.ReadLine());
+
             Console.WriteLine("");
 
             int Δ = a1 * b2 * c3 + a3 * b1 * c2 + a2 * b3 * c1 - a3 * b2 * c1 - a1 * b3 * c2 - a2 * b1 * c3;
