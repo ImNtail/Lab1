@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Lab1_2
 {
@@ -7,15 +7,13 @@ namespace Lab1_2
         static void Main(string[] args)
         {
             Console.WriteLine("How many seconds are gone?");
-            int seconds = int.Parse(Console.Read());
-            Console.WriteLine(" seconds are gone.");
+            int seconds = int.Parse(Console.ReadLine());
             int hours = (int)(seconds / 3600);
             int minutes = (int)(seconds / 60);
-            while (minutes > 60) 
+            while (minutes > 60)
             {
                 minutes = minutes - 60;
             }
-            Console.WriteLine();
             Console.WriteLine("Time are gone: " + hours + " hours " + minutes + " minutes");
         }
     }
