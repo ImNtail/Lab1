@@ -1,0 +1,6 @@
+D:\MS Visual Studio Projects\Lab1_9\bin\Debug\Lab1_9.exe.config
+D:\MS Visual Studio Projects\Lab1_9\bin\Debug\Lab1_9.exe
+D:\MS Visual Studio Projects\Lab1_9\bin\Debug\Lab1_9.pdb
+D:\MS Visual Studio Projects\Lab1_9\obj\Debug\Lab1_9.exe
+D:\MS Visual Studio Projects\Lab1_9\obj\Debug\Lab1_9.pdb
+D:\MS Visual Studio Projects\Lab1_9\obj\Debug\Lab1_9.csprojAssemblyReference.cache
