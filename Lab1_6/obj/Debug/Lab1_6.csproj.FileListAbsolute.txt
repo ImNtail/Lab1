@@ -1,0 +1,5 @@
+D:\MS Visual Studio Projects\Lab1_6\bin\Debug\Lab1_6.exe.config
+D:\MS Visual Studio Projects\Lab1_6\bin\Debug\Lab1_6.exe
+D:\MS Visual Studio Projects\Lab1_6\bin\Debug\Lab1_6.pdb
+D:\MS Visual Studio Projects\Lab1_6\obj\Debug\Lab1_6.exe
+D:\MS Visual Studio Projects\Lab1_6\obj\Debug\Lab1_6.pdb
